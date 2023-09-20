@@ -9,6 +9,8 @@ import { Provider } from 'react-redux';
 const container = document.getElementById('root');
 const root = createRoot(container);
 
+// This is the final project
+
 root.render(
   <Provider store={store}>
     <App tab='home' />
